@@ -1,0 +1,3 @@
+myFile.json filter=myFilter
+clean eol=lf
+smudge eol=lf

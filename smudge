@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export BRANCH=`git rev-parse --symbolic --abbrev-ref HEAD`
+sed -e "s/{{BRANCH}}/$BRANCH/"
